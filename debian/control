@@ -1,21 +1,15 @@
-Source: hybris-mobian-quirks
-Maintainer: Giuseppe Corti (r3vn) <giuseppe.corti@protonmail.com>
+Source: miatoll-quirks
+Maintainer: Cédric Bellegarde <cedric.bellegarde@adishatz.org>
 Section: misc
 Priority: optional
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/hybris-mobian/hybris-mobian-quirks
-Vcs-Git: https://github.com/hybris-mobian-releng/hybris-mobian-quirks.git
+Vcs-Browser: https://github.com/bellegarde-c/miatoll-quirks
+Vcs-Git: https://github.com/bellegarde-c/miatoll-quirks.git
 
-Package: hybris-mobian-quirks-remount-root-rw
+Package: miatoll-quirks
 Architecture: all
-Depends: ${misc:Depends}
-Description: remount / rw
- This package contains systemd units required to remount / as read/write on generic halium-boot
-
-Package: hybris-mobian-quirks-calls-config-ofono
-Architecture: all
-Pre-Depends: calls, ofono
-Depends: ${misc:Depends}
-Description: Calls app's config for ofono plugin
- This package contains configuration files required to start "Calls" on ofono backend
+Provides: batman, batman-governor, batman-helper, batman-libpower
+Replaces: batman, batman-governor, batman-helper, batman-libpower
+Breaks: batman, batman-governor, batman-helper, batman-libpower
+Description: Miatoll quirks
