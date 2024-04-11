@@ -9,7 +9,7 @@ Vcs-Git: https://github.com/bellegarde-c/miatoll-quirks.git
 
 Package: miatoll-quirks
 Architecture: all
-Provides: batman, batman-governor, batman-helper, batman-libpower, libbatman-wrappers
-Replaces: batman, batman-governor, batman-helper, batman-libpower, libbatman-wrappers
-Breaks: batman, batman-governor, batman-helper, batman-libpower, libbatman-wrappers
+Provides: batman, batman-governor, batman-helper, batman-libpower
+Replaces: batman, batman-governor, batman-helper, batman-libpower
+Breaks: batman, batman-governor, batman-helper, batman-libpower
 Description: Miatoll quirks
