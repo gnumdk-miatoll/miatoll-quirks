@@ -2,3 +2,6 @@
 
 %:
 	dh $@
+
+override_dh_installsystemduser:
+	dh_installsystemduser -pmiatoll-quirks --name=miatoll_data_quirk miatoll_data_quirk.timer

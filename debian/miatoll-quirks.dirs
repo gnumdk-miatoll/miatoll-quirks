@@ -1,1 +1,2 @@
 /etc/environment.d
+/usr/lib/systemd/user

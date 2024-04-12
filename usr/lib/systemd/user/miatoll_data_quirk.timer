@@ -1,0 +1,10 @@
+[Unit]
+Description=Miatoll data quirk
+
+[Timer]
+OnActiveSec=10
+OnUnitActiveSec=120
+Unit=miatoll_data_quirk.service
+
+[Install]
+WantedBy=timers.target
