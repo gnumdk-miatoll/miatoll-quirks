@@ -1,8 +1,0 @@
-[Unit]
-Description=Miatoll data quirk
-
-[Service]
-ExecStart=/usr/bin/miatoll_data_quirk.sh
-
-[Install]
-WantedBy=multi-user.target

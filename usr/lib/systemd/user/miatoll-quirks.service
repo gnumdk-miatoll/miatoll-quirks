@@ -3,7 +3,7 @@ Description=Miatoll quirks
 
 [Service]
 ExecStart=/usr/bin/sleep 10
-ExecStart=/usr/bin/miatoll_quirks.sh
+ExecStart=/usr/bin/miatoll-quirks.sh
 
 [Install]
 WantedBy=default.target
