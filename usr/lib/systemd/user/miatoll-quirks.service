@@ -2,7 +2,7 @@
 Description=Miatoll quirks
 
 [Service]
-ExecStart=/usr/bin/sleep 10
+ExecStartPre=/usr/bin/sleep 10
 ExecStart=/usr/bin/miatoll-quirks.sh
 
 [Install]
