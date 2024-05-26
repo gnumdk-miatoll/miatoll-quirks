@@ -1,4 +1,3 @@
-/etc/environment.d
 /usr/bin
 /usr/lib/NetworkManager/dispatcher.d
 /usr/lib/systemd/system/ModemManager.service.d
