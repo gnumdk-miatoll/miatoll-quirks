@@ -10,4 +10,3 @@ Vcs-Git: https://github.com/bellegarde-c/miatoll-quirks.git
 Package: miatoll-quirks
 Architecture: all
 Description: Miatoll quirks
-Depends: ofono-scripts
