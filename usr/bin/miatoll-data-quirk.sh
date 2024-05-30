@@ -1,4 +1,6 @@
 #!/bin/bash
+ip route ls | grep rmnet >/dev/null || exit 0
+
 ip route ls | grep rmnet | grep 'default via' >/dev/null
 if (( $? != 0 ))
 then
