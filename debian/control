@@ -9,4 +9,5 @@ Vcs-Git: https://github.com/bellegarde-c/miatoll-quirks.git
 
 Package: miatoll-quirks
 Architecture: all
+Depends: miatoll-modem-quirk
 Description: Miatoll quirks
