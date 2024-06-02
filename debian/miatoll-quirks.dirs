@@ -1,4 +1,3 @@
-/etc/systemd/system
 /usr/bin
 /usr/lib/systemd/system/ModemManager.service.d
 /usr/lib/systemd/system
