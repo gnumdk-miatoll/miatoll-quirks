@@ -1,3 +1,4 @@
+/etc/ofono/binder.d
 /usr/bin
 /usr/lib/systemd/system/ModemManager.service.d
 /usr/lib/systemd/system
