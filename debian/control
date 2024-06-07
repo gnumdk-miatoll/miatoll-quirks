@@ -9,7 +9,6 @@ Vcs-Git: https://github.com/bellegarde-c/mobile-quirks.git
 
 Package: mobile-quirks
 Architecture: all
-Provides: mobile-modem-quirk
-Replaces: mobile-modem-quirk
-Conflicts: mobile-modem-quirk
-Description: Miatoll quirks
+Replaces: mobile-modem-quirk, miatoll-quirks
+Conflicts: mobile-modem-quirk, miatoll-quirks
+Description: Quirks for Droidian 
