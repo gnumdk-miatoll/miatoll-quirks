@@ -1,5 +1,5 @@
 [Unit]
-Description=Miatoll data quirk
+Description=Mobile data quirk
 
 [Timer]
 OnActiveSec=10

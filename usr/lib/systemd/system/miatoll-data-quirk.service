@@ -1,5 +1,0 @@
-[Unit]
-Description=Miatoll data quirk
-
-[Service]
-ExecStart=/usr/bin/miatoll-data-quirk.sh
