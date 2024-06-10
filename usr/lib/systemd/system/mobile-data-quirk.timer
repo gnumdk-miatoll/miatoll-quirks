@@ -4,7 +4,7 @@ Description=Mobile data quirk
 [Timer]
 OnActiveSec=10
 OnUnitActiveSec=120
-Unit=miatoll-data-quirk.service
+Unit=mobile-data-quirk.service
 
 [Install]
 WantedBy=timers.target

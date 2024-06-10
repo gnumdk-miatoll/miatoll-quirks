@@ -1,9 +1,9 @@
 [Unit]
-Description=Miatoll quirks
+Description=Mobile quirks
 
 [Service]
 ExecStartPre=/usr/bin/sleep 10
-ExecStart=/usr/bin/miatoll-quirks.sh
+ExecStart=/usr/bin/mobile-quirks.sh
 
 [Install]
 WantedBy=default.target
