@@ -2,7 +2,7 @@
 Description=Mobile quirks
 
 [Service]
-ExecStartPre=/usr/bin/sleep 10
+ExecStartPre=/usr/bin/sleep 5
 ExecStart=/usr/bin/mobile-quirks.sh
 
 [Install]
